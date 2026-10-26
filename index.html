@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>خدمة المسلم</title>
+
+    <meta name="description"
+          content="منصة إسلامية مجانية لخدمة المسلمين، تعتمد على القرآن الكريم والسنة النبوية والمصادر العلمية الموثوقة.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f5f7f4;
+            color: #222;
+            line-height: 1.8;
+        }
+
+        header {
+            background: #173f35;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 17px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+
+        .welcome h2 {
+            color: #173f35;
+            margin-bottom: 12px;
+        }
+
+        .welcome p {
+            color: #555;
+            font-size: 17px;
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .icon {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #173f35;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .notice {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff8e6;
+            border-right: 5px solid #c49a3a;
+            border-radius: 10px;
+        }
+
+        .notice strong {
+            color: #765900;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #173f35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>خدمة المسلم</h1>
+    <p>علم موثوق • مصادر موثقة • خدمة مجانية للمسلمين</p>
+</header>
+
+<main class="container">
+
+    <section class="welcome">
+        <h2>مرحباً بك</h2>
+
+        <p>
+            منصة إسلامية مجانية تهدف إلى تسهيل الوصول إلى
+            القرآن الكريم والسنة النبوية والعلم الشرعي الموثوق،
+            مع العناية بالتوثيق ونسبة الأقوال إلى مصادرها.
+        </p>
+    </section>
+
+    <section class="sections">
+
+        <div class="card">
+            <div class="icon">📖</div>
+            <h3>القرآن الكريم</h3>
+            <p>
+                القرآن الكريم مع إمكانية إضافة التفسير
+                والترجمات الموثقة لاحقاً.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📜</div>
+            <h3>السنة النبوية</h3>
+            <p>
+                البحث في الأحاديث مع بيان المصدر
+                ودرجة الحديث عند توفر التوثيق.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔎</div>
+            <h3>تحقق من الحديث</h3>
+            <p>
+                الوصول إلى بيانات التخريج والحكم
+                والمصدر بدلاً من نشر الأحاديث بلا تحقق.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">☝️</div>
+            <h3>العقيدة والتوحيد</h3>
+            <p>
+                مواد علمية موثقة من القرآن والسنة
+                وكتب العلماء المعتبرين.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💧</div>
+            <h3>تعلم الوضوء</h3>
+            <p>
+                تعليم الوضوء للمبتدئين بطريقة سهلة
+                مع الأدلة والمصادر الموثوقة.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🕌</div>
+            <h3>تعلم الصلاة</h3>
+            <p>
+                تعليم الصلاة خطوة بخطوة مع
+                المصادر والدروس الموثوقة.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="notice">
+        <strong>منهجنا في التوثيق:</strong>
+
+        <p>
+            لا ننسب قولاً إلى الله تعالى أو رسوله ﷺ أو أحد العلماء
+            إلا بعد التحقق من المصدر. وإذا تعذر علينا التحقق،
+            نصرّح بذلك ولا نخمن.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    مشروع مجاني لخدمة المسلمين
+    <br>
+    الإصدار التجريبي الأول
+</footer>
+
+</body>
+</html>
